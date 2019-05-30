@@ -57,6 +57,6 @@ while(flag.done === false){
 
 //Problem 3
 
-const cube = n => n**3;
+const cube = n => console.log(n**3);
 
-for (const x in [1,2,3,4,5,6,7,8]){console.log(cube(x))}
+[1,2,3,4,5,6,7].map(cube);
