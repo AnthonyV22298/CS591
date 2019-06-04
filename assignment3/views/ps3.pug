@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    h1 String passed in using GET
+    p #{str}
+
+    h1 String passed in using POST
+        form(action='/test/submit' method='post')
+            input(type='text', name='id' )
+            input(type='submit', value = 'Enter Name')
