@@ -1,0 +1,7 @@
+extends layout
+
+block content
+    h1 Type in a player to view their stats
+        form(action='/test/submit' method='post')
+            input(type='text', name='id' )
+            input(type='submit', value = 'Enter Name')
