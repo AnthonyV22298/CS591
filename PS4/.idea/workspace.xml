@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="513f4114-e9ef-4cfc-bba6-0e72d2725cb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/configs/wxConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/ps4.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/ps4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/test.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/test.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/ps4.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+            <state relative-caret-position="68">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -73,8 +70,8 @@
       <list>
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/configs/wxConfig.js" />
-        <option value="$PROJECT_DIR$/routes/ps4.js" />
         <option value="$PROJECT_DIR$/views/test.pug" />
+        <option value="$PROJECT_DIR$/routes/ps4.js" />
       </list>
     </option>
   </component>
@@ -162,12 +159,12 @@
       <option name="presentableId" value="Default" />
       <updated>1560004116437</updated>
       <workItem from="1560004132649" duration="690000" />
-      <workItem from="1560009041309" duration="16221000" />
+      <workItem from="1560009041309" duration="16744000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16911000" />
+    <option name="totallyTimeSpent" value="17434000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1040" extended-state="0" />
@@ -223,8 +220,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/ps4.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+        <state relative-caret-position="68">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>

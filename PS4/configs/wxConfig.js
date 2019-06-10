@@ -1,1 +1,1 @@
-const exConfig = {MYAPIKEY : '117334e4c4f7f3546f4bd21bb5b5bb35'};
+const exConfig = {MYAPIKEY : '15ca9b13a8896a91ff8d198da955c73c'};

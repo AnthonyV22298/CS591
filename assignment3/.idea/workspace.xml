@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7d40e84-d20c-40e6-bd21-ca4a1f1e062e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../PS4/configs/wxConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PS4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PS4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PS4/routes/ps4.js" beforeDir="false" afterPath="$PROJECT_DIR$/../PS4/routes/ps4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PS4/views/test.pug" beforeDir="false" afterPath="$PROJECT_DIR$/../PS4/views/test.pug" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />

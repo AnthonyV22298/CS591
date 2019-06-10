@@ -2,8 +2,8 @@ const express = require('express');
 const router = express.Router();
 const request = require("request");
 
-//const wxConfig = require('../configs/wxConfig');
-//const wxKey = wxConfig.exConfig.MYAPIKEY;
+const wxConfig = require('../configs/wxConfig');
+const wxKey = wxConfig.exConfig.MYAPIKEY;
 
 router.get('/', function (req, res, next) {  //  /apis/fx
 
@@ -11,9 +11,7 @@ router.get('/', function (req, res, next) {  //  /apis/fx
             method: 'GET',
             url: 'https://samples.openweathermap.org/data/2.5/weather?q=London',
             qs:
-                { key: '15ca9b13a8896a91ff8d198da955c73c',
-                  league: 'National',
-                  division: 'East'},
+                { key: wxKey},
             headers:
                 { 'cache-control': 'no-cache',
                     Connection: 'keep-alive',
