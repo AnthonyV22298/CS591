@@ -2,23 +2,26 @@ const express = require('express');
 const router = express.Router();
 const request = require("request");
 
+//const wxConfig = require('../configs/wxConfig');
+//const wxKey = wxConfig.exConfig.MYAPIKEY;
+
 router.get('/', function (req, res, next) {  //  /apis/fx
 
         const options = {
             method: 'GET',
-            url: 'http://erikberg.com/',
+            url: 'https://samples.openweathermap.org/data/2.5/weather?q=London',
             qs:
-                { key: '117334e4c4f7f3546f4bd21bb5b5bb35',
-                  team: 'Mets'},
+                { key: '15ca9b13a8896a91ff8d198da955c73c',
+                  league: 'National',
+                  division: 'East'},
             headers:
                 { 'cache-control': 'no-cache',
                     Connection: 'keep-alive',
                     'accept-encoding': 'gzip, deflate',
-                    referer: 'http://erikberg.com',
-                    'Postman-Token': '052a9dea-43f8-4ae3-9199-dd7ee18cba4b',
+                    Host: 'samples.openweathermap.org',
+                    'Postman-Token': '69ecb4d5-7b42-4cd3-b8cf-9e4215cbb743',
                     'Cache-Control': 'no-cache',
                     Accept: '*/*',
-                    cookie: 'JSESSIONID=012EA2646E74C3AB9A6A8F554631143E',
                     'User-Agent': 'PostmanRuntime/7.13.0',
                     'Content-Type': 'application/x-www-form-urlencoded' } };
 
@@ -26,7 +29,7 @@ router.get('/', function (req, res, next) {  //  /apis/fx
             if (error) throw new Error(error);
 
             console.log(body);
-            //res.render('test',JSON.parse(body));
+            res.render('test',JSON.parse(body));
         });
 
 

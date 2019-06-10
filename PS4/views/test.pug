@@ -1,7 +1,4 @@
 extends layout
 
 block content
-    h1 Type in a player to view their stats
-        form(action='/test/submit' method='post')
-            input(type='text', name='id' )
-            input(type='submit', value = 'Enter Name')
+    h1 The temp in London is #{main.temp} while the humidity is #{main.humidity}
